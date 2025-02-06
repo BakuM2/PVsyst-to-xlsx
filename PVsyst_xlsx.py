@@ -66,7 +66,7 @@ def pdf_to_excel(pdf_path):
     print(f"Excel file saved: {excel_path}")
 
 if __name__ == "__main__":
-    filename="20252901_Schoenfelder_2P_Tracker_Bi_GCR53_320kW_615W_7563.pdf"
+    filename="Project.pdf"
 
     pdf_path = cwd+"/"+filename
     excel_path = cwd+"/"+filename[:-3]+"xlsx"
